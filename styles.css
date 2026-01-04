@@ -58,7 +58,8 @@ body {
 }
 
 textarea {
-  min-width: 400px;
+  width: 100%;
+  max-width: 400px;
   height: 150px;
   padding: 12px;
   font-size: 16px;
