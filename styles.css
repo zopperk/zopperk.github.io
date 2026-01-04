@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: #e6ddfa;
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+}
+
+.screen {
+  display: none;
+}
+
+.screen.active {
+  display: block;
+}
+
+.buttons button {
+  display: block;
+  min-width: 250px;
+  margin: 10px auto;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  text-align: left;
+}
+
+#gradeAplus {
+  background-color: #427141;
+  color: white;
+}
+
+#gradeA {
+  background-color: #68AB64;
+  color: white;
+}
+
+#gradeB {
+  background-color: #A9CD71;
+  color: black;
+}
+
+#gradeC {
+  background-color: #FFFF73;
+  color: black;
+}
+
+#gradeD {
+  background-color: #EDC55B;
+  color: black;
+}
+
+#gradeF {
+  background-color: #A23223;
+  color: white;
+}
+
+textarea {
+  min-width: 400px;
+  height: 150px;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: #e6ddfa;
+}
+
+button {
+  cursor: pointer;
+}
+
+#submit {
+  display: block;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px black solid;
+  background-color: #e6ddfa;
+  color: black;
+  margin: 10px auto;
+}
+
+#back {
+  display: block;
+  margin: 0 auto;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  background: transparent;
+  color: inherit;
+}
+
+#submit:hover {
+  background-color: black;
+  color: white;
+}
+
+#back:hover {
+  background: transparent;
+  text-decoration: underline;
+}
+
+/* default fallback for the selected grade pill on screen 2 */
+.selected-pill {
+  text-align: left;
+  padding: 16px;
+  border-radius: 8px;
+  border: none;
+  width: 250px;
+  margin: 10px auto;
+  font-size: 16px;
+  display: block;
+}
+
+.selected-pill b {
+  font-weight: 700;
+}
+
+#smiley {
+  width: 240px;
+  margin-top: 20px;
+}
+
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Daily Grade</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Screen 1 -->
+  <div id="screen-grade" class="screen active">
+    <p class="date">Today is <strong class="today"></strong></p>
+    <h1>How was your day?</h1>
+
+    <div class="buttons">
+      <button id="gradeAplus" data-grade="A+"><b>A+</b> Positive core memory</button>
+      <button id="gradeA" data-grade="A"><b>A</b> Very positive</button>
+      <button id="gradeB" data-grade="B"><b>B</b> Positive</button>
+      <button id="gradeC" data-grade="C"><b>C</b> Neutral</button>
+      <button id="gradeD" data-grade="D"><b>D</b> Negative</button>
+      <button id="gradeF" data-grade="F"><b>F</b> Very negative</button>
+    </div>
+  </div>
+
+  <!-- Screen 2 -->
+  <div id="screen-notes" class="screen">
+    <p class="date">Today is <strong class="today"></strong></p>
+    <h1>How was your day?</h1>
+    
+    <h2 id="selected-grade"></h2>
+    <textarea id="notes" placeholder="Care to elaborate?"></textarea>
+    <button id="submit">Submit</button>
+    <button id="back">← Back</button>
+  </div>
+
+  <!-- Screen 3 -->
+  <div id="screen-thanks" class="screen">
+    <h1>Thanks!</h1>
+    <p>See you tomorrow :&rpar;</p>
+    <img id="smiley" src="assets/smiley-dude.png">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
